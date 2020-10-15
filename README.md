@@ -23,7 +23,7 @@ Great ! We are done !
 ![alt text](https://github.com/raz8153/PyChristmas/blob/main/Image/Merry%20Christmas.png) 
 
 To break it down a bit more, we have made the leaves and stem out of multiple boxes or rectangles, with tiny circles on either end of the rectangle. And finally a star on top at the centre.
-@@@@@@@@@![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true) #image2
+![alt text](https://github.com/raz8153/PyChristmas/blob/main/Image/image2.png)
 # Shall we start Coding then ? 
 
 Create a new [repl.it](https://repl.it) project and select **Python** as the language from the drop down menu on the right.
@@ -217,7 +217,8 @@ In Case of ******width******, provide any value you desire.
 box1(turtle, "#4F4553", -15, y - 40, 30, 40) #Stem of the tree
 ```
 Now we make a make a stem for the tree by passing desired values for each parameter. Color will be a shade of brown and the rest as you see above. 
-@@@@@@@@@ image of box #image3
+![alt text](https://github.com/raz8153/PyChristmas/blob/main/Image/image3.png) 
+
 
 Next thing we are gonna make is the tree leaves with balls on either sides.
 This is the only part you have to be a bit careful while doing. See if the code is undertandable.
@@ -252,26 +253,26 @@ This is just to set the starting 'x' coordinate.
 box1(turtle, "#05A167", x, y, width, height) # Box for the leaves of tree
 ```
 Now we draw one complete green color filled box for first layer of flowers.
-@@@@@@@@@ Insert image for one layer green box #image4
+![alt text](https://github.com/raz8153/PyChristmas/blob/main/Image/image4.png) 
 
 ```python
 balls(turtle, "#fc045b", x, y, 5) # Decorative balls
 ```
 Since the turtle is back on the left end of the rectangle, this statement draws a small ball of radius 5 with a shade of red filled in it. 
-@@@@@@@@@  Image of one rectangle with left ball v   #image5
+![alt text](https://github.com/raz8153/PyChristmas/blob/main/Image/image5.png) 
 Now we need one more tiny ball on the right end of the christmas tree right ? 
 
 ```python
 balls(turtle, "#fc045b", -x, y, 5)
 ```
 So we draw another ball with the same dimentions but we pass a different value for x coordinate. We pass ******-x****** instead of ******x******. This helps to position the ball on the right end instead of the left. 
-Now we have a Green rectangle with tiny red balls on either side. #image6
+![alt text](https://github.com/raz8153/PyChristmas/blob/main/Image/image6.png) 
 ```python
 y = y + height
 ```
 Finally, the above line helps to move the turtle up to the top of each rectangle so that the next rectangle it draws will be stacked on top of the one before it. 
 Repeating the above step over and over again will give us recatangles stacked on top of each other such that ones on top are slightly smaller then the one directly under it. We also have tiny red balls on either side.
-@@@@@@@@@ Insert image of tree wihtout star and wishes  #image7
+![alt text](https://github.com/raz8153/PyChristmas/blob/main/Image/image7.png) 
 
 Next,  Lets create a star on top of the tree.
 Note that once the rectangle drawing is done, the turtle is already on top of the tree. 
@@ -280,7 +281,7 @@ Note that once the rectangle drawing is done, the turtle is already on top of th
 star(turtle, "#e5f614", 0.4, y, 20)
 ```
 The above code will draw a yellow star on top of the tree. You can tweak the parameters to see how the positioning and size varies. 
-@@@@@@@@@ Insert image of tree with star.  #image8
+![alt text](https://github.com/raz8153/PyChristmas/blob/main/Image/image8.png) 
 
 Wow ! The tree is done. Now for the final touch, the greetings . 
 
@@ -303,7 +304,7 @@ turtle.done()
 ```
 The ******hideturtle()****** function hides the turtle from the screen. And the ******turtle.done()****** function tells that the turtles task is done.
 
-@@@@@@@@@ full image again #image1
+![alt text](https://github.com/raz8153/PyChristmas/blob/main/Image/image1.png) 
 Well, guess what ? We are done. 
 One look at the whole code ?
 ```python
@@ -354,7 +355,7 @@ Now lets run the code .
 # Running the code
 Click the green "Run" button on the top of the repl.it window. A screen will be shown on the right side displaying the turtle graphics that you coded. 
 If you face any errors, try commenting out each portion of the code and making only a certain section work. This generally helps to figure out the error.
-@@@@@@@@@ Image of working replit and the run button   #image9and10
+![alt text](https://github.com/raz8153/PyChristmas/blob/main/Image/image9.png) 
 # One last thing
 
    Did you find this fun ? If yes, try out some of your own designs. 
