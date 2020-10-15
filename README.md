@@ -1,13 +1,13 @@
   
-     #PyChristmas 
-
-			
-			|name         |	          description                   | author |
-			|----------------------------------------------------------------|
-			|PyChristmas  |Christmas Greetings with turtle graphics | @Razz  |
-
+     # PyChristmas 
 
 This workshop is meant to help python newbies try out a fun library called "turtle".
+			
+			| name         |	          description              | author |
+			|-------------------------------------------------------------------|
+			| PyChristmas  | Christmas Greetings with turtle graphics  | @Razz  |
+
+
 
 In this, we make a whole christmas greetings using turtle graphics !!
 
@@ -17,21 +17,21 @@ Try out and leave feedback.
 
 # Getting Started
 
-Let me give a brief idea of what we are gonna do. We are gonna make a greeting care with maroon-ish back ground with a mtext written on it saying ***"Merry Cristmas"***.
+Let me give a brief idea of what we are gonna do. We are gonna make a greeting card with maroon-ish back ground with a text written on it saying ***"Merry Cristmas"***.
 Great ! We are done !
- Nope, just kidding . We are gonna add a christmas tree too. That is, we need a green tree with brown bark , a yellow/golden star on top and tiny red balls on either sides of the tree.
+ Nope, just kidding . We are gonna add a christmas tree too. That is, we need a green tree with brown stem, a yellow/golden star on top and tiny red balls on either sides of the tree.
 
 @@@@@@@@@![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
-To break it down a bit more, we have made the leaves and stem out of multiple boxes or rectangles, with tiny circles on either end of the rectangle. And finally a star on top on the centre.
+To break it down a bit more, we have made the leaves and stem out of multiple boxes or rectangles, with tiny circles on either end of the rectangle. And finally a star on top at the centre.
 @@@@@@@@@![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 # Shall we start Coding then ? 
 
 Create a new [repl.it](https://repl.it) project and select **Python** as the language from the drop down menu on the right.
 
 We are gonna make 2 python files . (Writing in single page may make it a bit too complicated to understand)
-1- ******Figures.py****** - A python file in which we code the functions that we will use to create the boxes/rectangles , the tiny circles and the star.
-2- ******ChristmasTree.py****** - A python file in which we call the functions of boxes and circles and stars to make a christmas tree. And finally, we will add a greeting on the bottom of the screen as you saw above
+1 - ******Figures.py****** - A python file in which we code the functions that we will use to create the boxes/rectangles , the tiny circles and the star.
+2 - ******ChristmasTree.py****** - A python file in which we call the functions of boxes and circles and stars to make a christmas tree. And finally, we will add a greeting on the bottom of the screen as you saw above
 
 # Lets code Figures.py first.
 
