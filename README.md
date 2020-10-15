@@ -1,11 +1,12 @@
+  
+     #PyChristmas 
+
 			
 			|name         |	          description                   | author |
 			|----------------------------------------------------------------|
 			|PyChristmas  |Christmas Greetings with turtle graphics | @Razz  |
 
 
-       
-     #PyChristmas 
 This workshop is meant to help python newbies try out a fun library called "turtle".
 
 In this, we make a whole christmas greetings using turtle graphics !!
@@ -181,6 +182,7 @@ def balls(turtle, color, x, y, radius):
 All good ? 
 
 #Now, lets move on to Next file : ChristmasTree.py
+
 Create a new file using the "Add file" option on the left side of the coding space
 Name it as "ChristmasTree.py" (or literally anything else you wish)
 
@@ -311,6 +313,7 @@ Click the green "Run" button on the top of the repl.it window. A screen will be 
 If you face any errors, try commenting out each portion of the code and making only a certain section work. This generally helps to figure out the error.
 
 #One last thing
+
    Did you find this fun ? If yes, try out some of your own designs. 
 You can basically draw almost anything with this. 
 A few suggestions would be:
