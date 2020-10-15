@@ -181,7 +181,7 @@ def balls(turtle, color, x, y, radius):
 ``` 
 All good ? 
 
-#Now, lets move on to Next file : ChristmasTree.py
+# Now, lets move on to Next file : ChristmasTree.py
 
 Create a new file using the "Add file" option on the left side of the coding space
 Name it as "ChristmasTree.py" (or literally anything else you wish)
@@ -312,7 +312,7 @@ Now lets run the code .
 Click the green "Run" button on the top of the repl.it window. A screen will be shown on the right side displaying the turtle graphics that you coded. 
 If you face any errors, try commenting out each portion of the code and making only a certain section work. This generally helps to figure out the error.
 
-#One last thing
+# One last thing
 
    Did you find this fun ? If yes, try out some of your own designs. 
 You can basically draw almost anything with this. 
