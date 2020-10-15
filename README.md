@@ -20,10 +20,10 @@ Let me give a brief idea of what we are gonna do. We are gonna make a greeting c
 Great ! We are done !
  Nope, just kidding . We are gonna add a christmas tree too. That is, we need a green tree with brown stem, a yellow/golden star on top and tiny red balls on either sides of the tree.
 
-@@@@@@@@@![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+@@@@@@@@@![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true) #image1
 
 To break it down a bit more, we have made the leaves and stem out of multiple boxes or rectangles, with tiny circles on either end of the rectangle. And finally a star on top at the centre.
-@@@@@@@@@![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+@@@@@@@@@![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true) #image2
 # Shall we start Coding then ? 
 
 Create a new [repl.it](https://repl.it) project and select **Python** as the language from the drop down menu on the right.
@@ -86,7 +86,7 @@ for i in range(2):
 ```
 The code above is the one that draws the rectangle. This code moves the turtle to on side by the same distance as the width mentioned, now turns it to left (left of the turtle) and moves it to a distance same as the height. This process is repeated twice as it is put in a loop twice. Now we have a complete rectangle. 
 Are you still with me ? 
-@@@@@@@@@ Insert image for rectangle formation.
+
 Let's make the star now shall we ? Check the code below and see if you understand
 
 ```python
@@ -108,7 +108,6 @@ def star(turtle, color, x, y, size):
 I guess you would've understood atleast 90% of the above code easily. I will explain the new stuff.
 The ******size****** parameter decides the legth of the edges of the star.
 Now we move the turtle forward by a distance same as that of the size mentioned. Now we turn the turtle to right by 144 degreesand move it by the same distance. Repeate the step 5 times and you will have a star. Got it ? 
-@@@@@@@@@ Insert image for star formation.
 
 Last function in this file to make the tiny balls on either sides of the boxes (green part) pf the christmas tree.
 Go through the code. You probably will understand it pretty easily.
@@ -218,6 +217,7 @@ In Case of ******width******, provide any value you desire.
 box1(turtle, "#4F4553", -15, y - 40, 30, 40) #Stem of the tree
 ```
 Now we make a make a stem for the tree by passing desired values for each parameter. Color will be a shade of brown and the rest as you see above. 
+@@@@@@@@@ image of box #image3
 
 Next thing we are gonna make is the tree leaves with balls on either sides.
 This is the only part you have to be a bit careful while doing. See if the code is undertandable.
@@ -252,26 +252,26 @@ This is just to set the starting 'x' coordinate.
 box1(turtle, "#05A167", x, y, width, height) # Box for the leaves of tree
 ```
 Now we draw one complete green color filled box for first layer of flowers.
-@@@@@@@@@ Insert image for one layer green box
+@@@@@@@@@ Insert image for one layer green box #image4
 
 ```python
 balls(turtle, "#fc045b", x, y, 5) # Decorative balls
 ```
 Since the turtle is back on the left end of the rectangle, this statement draws a small ball of radius 5 with a shade of red filled in it. 
-@@@@@@@@@  Image of one rectangle with left ball
+@@@@@@@@@  Image of one rectangle with left ball v   #image5
 Now we need one more tiny ball on the right end of the christmas tree right ? 
 
 ```python
 balls(turtle, "#fc045b", -x, y, 5)
 ```
 So we draw another ball with the same dimentions but we pass a different value for x coordinate. We pass ******-x****** instead of ******x******. This helps to position the ball on the right end instead of the left. 
-Now we have a Green rectangle with tiny red balls on either side.
+Now we have a Green rectangle with tiny red balls on either side. #image6
 ```python
 y = y + height
 ```
 Finally, the above line helps to move the turtle up to the top of each rectangle so that the next rectangle it draws will be stacked on top of the one before it. 
 Repeating the above step over and over again will give us recatangles stacked on top of each other such that ones on top are slightly smaller then the one directly under it. We also have tiny red balls on either side.
-@@@@@@@@@ Insert image of tree wihtout star and wishes
+@@@@@@@@@ Insert image of tree wihtout star and wishes  #image7
 
 Next,  Lets create a star on top of the tree.
 Note that once the rectangle drawing is done, the turtle is already on top of the tree. 
@@ -280,7 +280,7 @@ Note that once the rectangle drawing is done, the turtle is already on top of th
 star(turtle, "#e5f614", 0.4, y, 20)
 ```
 The above code will draw a yellow star on top of the tree. You can tweak the parameters to see how the positioning and size varies. 
-@@@@@@@@@ Insert image of tree with star.
+@@@@@@@@@ Insert image of tree with star.  #image8
 
 Wow ! The tree is done. Now for the final touch, the greetings . 
 
@@ -303,6 +303,7 @@ turtle.done()
 ```
 The ******hideturtle()****** function hides the turtle from the screen. And the ******turtle.done()****** function tells that the turtles task is done.
 
+@@@@@@@@@ full image again #image1
 Well, guess what ? We are done. 
 One look at the whole code ?
 ```python
@@ -353,7 +354,7 @@ Now lets run the code .
 # Running the code
 Click the green "Run" button on the top of the repl.it window. A screen will be shown on the right side displaying the turtle graphics that you coded. 
 If you face any errors, try commenting out each portion of the code and making only a certain section work. This generally helps to figure out the error.
-@@@@@@@@@ Image of working replit and the run button
+@@@@@@@@@ Image of working replit and the run button   #image9and10
 # One last thing
 
    Did you find this fun ? If yes, try out some of your own designs. 
