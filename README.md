@@ -35,7 +35,7 @@ We are gonna make 2 python files . (Writing in single page may make it a bit too
 
 # Lets code Figures.py first.
 
-Using the coding space on the left create a file (most probably a main.py file will already be created, rename it as 'Figures.py' if you wish to).
+Using the coding space on the left create a file (most probably a main.py file will already be created).
 Now in the coding window :
 
 First let's import the turtle library :
@@ -63,7 +63,7 @@ def box1 (turtle, color, x, y, width, height):
     turtle.setheading(0)
 
 ```
-   Was that a bit too much to digest ? No worries,I will  break it down for you. 
+   Was that a bit too much to take in ? No worries,I will  break it down for you. 
 ```python
 def box1 (turtle, color, x, y, width, height):
 ```
@@ -212,13 +212,13 @@ width = 240
 ******speed()****** function determines the speed of the turtle, ie, the speed in which the figures get drawn on the screen. When we set that to zero it moves as fast as it can. 
 Next we set the background color to maroon using th hexcode.
 Now decide a value for ******y******, which is basically trial and error. Set some random value first and then iterate to find the right vaue which brings your turtle to the center.
-In Case of ******width*******, provide any value you desire. 
+In Case of ******width******, provide any value you desire. 
 
 ```python
 # Constructing the tree
 box1(turtle, "#4F4553", -15, y - 40, 30, 40) #Stem of the tree
 ```
-Now we make a make a stem for the tree by passing desired value s for each parameter. Color will be a shade of brown and the rest as you see above. 
+Now we make a make a stem for the tree by passing desired values for each parameter. Color will be a shade of brown and the rest as you see above. 
 
 Next thing we are gonna make is the tree leaves with balls on either sides.
 This is the only part you have to be a bit careful while doing. See if the code is undertandable.
@@ -241,7 +241,7 @@ Not too difficult, is it ? Let's break this down.
 width = width - 20
 height = randint(20,30)
 ```
-In each iteration, the width of the next rectangle gets reduced to a smaller size so that in the ens we get a triangle kinda look for the entire leaf part (green portion). We assign a random value for the height as that helps to give the tree an irregular shape rather than a giving same height for all the rectangles. If you would like, you could reduce the width by a random integer too. 
+In each iteration, the width of the next rectangle gets reduced to a smaller size so that in the end we get a triangle kinda look for the entire leaf part (green portion). We assign a random value for the height as that helps to give the tree an irregular shape rather than a giving same height for all the rectangles. If you would like, you could reduce the width by a random integer too. 
 
 
 ```python
@@ -266,7 +266,7 @@ Now we need one more tiny ball on the right end of the christmas tree right ?
 balls(turtle, "#fc045b", -x, y, 5)
 ```
 So we draw another ball with the same dimentions but we pass a different value for x coordinate. We pass ******-x****** instead of ******x******. This helps to position the ball on the right end instead of the left. 
-Now we have a Greean rectangle with tiny red balls on either side.
+Now we have a Green rectangle with tiny red balls on either side.
 ```python
 y = y + height
 ```
@@ -274,7 +274,7 @@ Finally, the above line helps to move the turtle up to the top of each rectangle
 Repeating the above step over and over again will give us recatangles stacked on top of each other such that ones on top are slightly smaller then the one directly under it. We also have tiny red balls on either side.
 @@@@@@@@@ Insert image of tree wihtout star and wishes
 
-Next,  Lets reate a star on top of the tree.
+Next,  Lets create a star on top of the tree.
 Note that once the rectangle drawing is done, the turtle is already on top of the tree. 
 ```python
 #Star on the top 
@@ -293,7 +293,7 @@ goto(-250, -250)
 write("Merry Christmas !!!", font=("Calibri", 50, "bold"))
 ```
 I believe the code above is pretty self explanatory. We used the write method to have a text be written on the screen.
-Try changing the parameters of the ******go to****** , ******color****** and ******write****** function to see the differences. 
+Try changing the parameters of the ******goto()****** , ******color()****** and ******write()****** function to see the differences. 
 
 
 ```python
@@ -304,26 +304,69 @@ turtle.done()
 ```
 The ******hideturtle()****** function hides the turtle from the screen. And the ******turtle.done()****** function tells that the turtles task is done.
 
-Well, gueass what ? We are done. 
+Well, guess what ? We are done. 
+One look at the whole code ?
+```python
+# Now we use the figures we have defined to create the CHRISTMAS TREE
+from turtle import *
+from Figures import *
+from random import randint
+
+speed(0)
+
+bg = turtle.Screen()
+bg.bgcolor("#99004D") #Setting back ground color
+
+y = -100
+width = 240
+
+# Constructing the tree
+box1(turtle, "#4F4553", -15, y - 40, 30, 40) #Stem of the tree
+
+
+# Tree
+while width > 20 :
+    width = width - 20
+    height = randint(20,30)
+    x = 0 - width/2
+    box1(turtle, "#05A167", x, y, width, height) # Box for the leaves of tree
+    balls(turtle, "#fc045b", x, y, 5) # Decorative balls
+    balls(turtle, "#fc045b", -x, y, 5) # Decorative balls
+    y = y + height
+
+#Star on the top 
+star(turtle, "#e5f614", 0.4, y, 20)
+
+#Christmas wishes
+penup()
+color("#ff59ac")
+goto(-250, -250)
+write("Merry Christmas !!!", font=("Calibri", 50, "bold"))
+
+hideturtle()
+
+turtle.done()
+
+```
 
 Now lets run the code . 
 
 # Running the code
 Click the green "Run" button on the top of the repl.it window. A screen will be shown on the right side displaying the turtle graphics that you coded. 
 If you face any errors, try commenting out each portion of the code and making only a certain section work. This generally helps to figure out the error.
-
+@@@@@@@@@ Image of working replit and the run button
 # One last thing
 
    Did you find this fun ? If yes, try out some of your own designs. 
 You can basically draw almost anything with this. 
 A few suggestions would be:
-1- Try adding some more additions into this code,like maybe a few giftboxes on the bottom of the tree. For this you could use the same rectangle function. 
+1. Try changing the ******speed()****** function to '1' (or other values) to see the difference in speed. Try changing color of the parameters in the code. You can use [this link](https://www.color-hex.com/) to find the right hexcode you want.
+2. Try adding some more additions into this code,like maybe a few giftboxes on the bottom of the tree. For this you could use the same rectangle function. 
 You could also try adding a few more decorative stuff into the tree or the back ground
-2- Try writing a small turtle graphics code using a single page without dividing to 2 files and calling functions.
-3- Try making an entire different design. Maybe a pet animal or a house or literally anything you wish. The pic given below is something we call "pookkalam". If you google search this word, you will get to know that these are designs we (South Indians) make on the floor using flower petals. A friend of mine coded a similar design using turtle. A bit complicated, but superfun.
+3. Try making an entire different design. Maybe a pet animal or a house or literally anything you wish. The pic given below is something we call "pookkalam". If you google search this word, you will get to know that these are designs we (South Indians) make on the floor using flower petals. A friend of mine coded a similar design using turtle. A bit complicated, but superfun.
 ![alt text](https://github.com/FossMec/Code-a-pookalam/blob/master/Nikita%20Menon/FinalPookalam.png)
 [Code for the "pookkalam" made using turtle](https://github.com/FossMec/Code-a-pookalam/tree/master/Nikita%20Menon)
-4- Now, I would suggest to try out some other turtle functions that you may find interesting.    
+4. Now, I would suggest to try out some other turtle functions that you may find interesting.    
    [This link](https://runestone.academy/runestone/books/published/StudentCSP/CSPTurtleDecisions/turtleFP.html) provides details of most functions available in turtle.
 
 Aight ! Congrats on completing the workshop. Will you do me a small favour now ? Next time you try out a design, dm me the output in twitter (@raz8153) or on hack club clack channel (@Razz)
