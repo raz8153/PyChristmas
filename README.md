@@ -19,7 +19,7 @@ Let me give a brief idea of what we are gonna do. We are gonna make a greeting c
 Great ! We are done !
  Nope, just kidding . We are gonna add a christmas tree too. That is, we need a green tree with brown stem, a yellow/golden star on top and tiny red balls on either sides of the tree.
 
-![alt text](https://hackclub.slack.com/files/UU6CEGD1D/F01C7GB5CAK/image1.png) 
+![alt text](https://hackclub.slack.com/files/UU6CEGD1D/F01CK62R8AZ/merry_christmas.png) 
 
 To break it down a bit more, we have made the leaves and stem out of multiple boxes or rectangles, with tiny circles on either end of the rectangle. And finally a star on top at the centre.
 ![alt text](https://github.com/raz8153/PyChristmas/blob/main/Image/image2.png)
