@@ -30,8 +30,8 @@ To break it down a bit more, we have made the leaves and stem out of multiple bo
 Create a new [repl.it](https://repl.it) project and select **Python** as the language from the drop down menu on the right.
 
 We are gonna make 2 python files . (Writing in single page may make it a bit too complicated to understand)
-1 - ******Figures.py****** - A python file in which we code the functions that we will use to create the boxes/rectangles , the tiny circles and the star.
-2 - ******ChristmasTree.py****** - A python file in which we call the functions of boxes and circles and stars to make a christmas tree. And finally, we will add a greeting on the bottom of the screen as you saw above
+1.  ******Figures.py****** - A python file in which we code the functions that we will use to create the boxes/rectangles , the tiny circles and the star.
+2.  ******ChristmasTree.py****** - A python file in which we call the functions of boxes and circles and stars to make a christmas tree. And finally, we will add a greeting on the bottom of the screen as you saw above
 
 # Lets code Figures.py first.
 
