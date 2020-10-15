@@ -11,8 +11,7 @@ This workshop is meant to help python newbies try out a fun library called "turt
 In this, we make a whole christmas greetings using turtle graphics !!
 
 Try out and leave feedback.
-
-@@@@@@@@@[Link to Demo Code](https://github.com/)
+[Link to Demo Code](https://repl.it/@raz8153/ThankfulFirsthandScandisk)
 
 # Getting Started
 
@@ -34,7 +33,7 @@ We are gonna make 2 python files . (Writing in single page may make it a bit too
 
 # Lets code Figures.py first.
 
-Using the coding space on the left create a file (most probably a main.py file will already be created).
+Using the coding space on the left create a file and name it 'Figures.py' (most probably a main.py file will already be created, don't use that).
 Now in the coding window :
 
 First let's import the turtle library :
@@ -181,8 +180,8 @@ All good ?
 
 # Now, lets move on to Next file : ChristmasTree.py
 
-Create a new file using the "Add file" option on the left side of the coding space
-Name it as "ChristmasTree.py" (or literally anything else you wish)
+
+Now open the main.py 
 
 In this page we are gonna make a tree stem made of rectangle then we are gonna make multiple rectangles stacked above each other to make it look like a christmas tree. 
 Shall we begin ?
