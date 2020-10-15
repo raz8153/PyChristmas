@@ -1,5 +1,4 @@
 # Now we use the figures we have defined to create the CHRISTMAS TREE
-# import turtle
 from turtle import *
 from Figures import *
 from random import randint
@@ -13,8 +12,7 @@ y = -100
 width = 240
 
 # Constructing the tree
-box1(turtle, "#4F4553", -15, y - 40, 30, 40)
-# box1(turtle, "#4F4553", -15, y - 40, 30, 40)
+box1(turtle, "#4F4553", -15, y - 40, 30, 40) #Stem of the tree
 
 
 # Tree
@@ -24,13 +22,7 @@ while width > 20 :
     x = 0 - width/2
     box1(turtle, "#05A167", x, y, width, height) # Box for the leaves of tree
     balls(turtle, "#fc045b", x, y, 5) # Decorative balls
-    turtle.color("#05A167")
-    turtle.forward(width)
     balls(turtle, "#fc045b", -x, y, 5) # Decorative balls
-    # turtle.backward(width/2)
-    # box1(turtle, "#05A167", x, y, width, height)
-
-
     y = y + height
 
 #Star on the top 
