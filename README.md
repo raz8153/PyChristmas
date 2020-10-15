@@ -5,7 +5,7 @@ This workshop is meant to help python newbies try out a fun library called "turt
 			
 
 | name | description | author |
-|----------------------|
+|---|---|---|
 | PyChristmas | Christmas Greetings with turtle graphics | @Razz |
 
 
