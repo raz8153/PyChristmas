@@ -369,7 +369,8 @@ You could also try adding a few more decorative stuff into the tree or the back 
 4. Now, I would suggest to try out some other turtle functions that you may find interesting.    
    [This link](https://runestone.academy/runestone/books/published/StudentCSP/CSPTurtleDecisions/turtleFP.html) provides details of most functions available in turtle.
 
-Aight ! Congrats on completing the workshop. Will you do me a small favour now ? Next time you try out a design, dm me the output in twitter (@raz8153) or on hack club clack channel (@Razz)
+Aight ! Congrats on completing the workshop. Will you do me a small favour now ? Next time you try out a design, dm me the output in twitter (@raz8153) or on hack club clack channel (@Razz).
+I would Love to see your work.
 
 ****Thanks A Lot for sticking till the end and Happy hacking !!!**** 
 
