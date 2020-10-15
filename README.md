@@ -1,15 +1,13 @@
+
+
+| name | description | author |
+|---|---|---|
+| PyChristmas | Christmas Greetings with turtle graphics | @Razz |
   
 # PyChristmas 
 
 This workshop is meant to help python newbies try out a fun library called "turtle".
 			
-
-| name | description | author |
-|---|---|---|
-| PyChristmas | Christmas Greetings with turtle graphics | @Razz |
-
-
-
 In this, we make a whole christmas greetings using turtle graphics !!
 
 Try out and leave feedback.
