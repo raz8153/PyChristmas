@@ -2,7 +2,7 @@
 
 | name | description | author |
 |---|---|---|
-| PyChristmas | Christmas Greetings with turtle graphics | @Razz |
+| PyChristmas | Christmas Greetings with turtle graphics | @raz8153 |
   
 # PyChristmas 
 
