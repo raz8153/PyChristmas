@@ -192,7 +192,7 @@ from Figures import *
 from random import randint
 
 ```
-Here, we import all fuctions from 'turtle' library, all functions from 'Figures' library and finally 'randint' function from 'random' library so that we can use it to generate a random integer.
+Here, we import all fuctions from 'turtle' library, all functions from 'Figures' file (which we just created) and finally 'randint' function from 'random' library so that we can use it to generate a random integer.
 Why do we need a random integer? We'll see .
 
 
@@ -368,7 +368,7 @@ You could also try adding a few more decorative stuff into the tree or the back 
 4. Now, I would suggest to try out some other turtle functions that you may find interesting.    
    [This link](https://runestone.academy/runestone/books/published/StudentCSP/CSPTurtleDecisions/turtleFP.html) provides details of most functions available in turtle.
 
-Alright! Congratulations on completing the workshop. Will you do me a small favour, now? Next time you try out a design, send me the output in twitter (@raz8153) or on hack club clack channel ( send as direct message to @Razz).
+Alright! Congratulations on completing the workshop. Will you do me a small favour, now? Next time you try out a design, send me the output via twitter (@raz8153) or on hack club slack channel ( send as direct message to @Razz).
 I would Love to see your work.
 
 ****Thanks A Lot for sticking till the end and Happy hacking !!!**** 
